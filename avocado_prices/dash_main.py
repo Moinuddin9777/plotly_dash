@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 from dash.dependencies import Input, Output
 
-path = "C:/Users/irfan/OneDrive/Desktop/MO TECH/avocado-updated-2020.csv"
+path = "C:/Users/irfan/OneDrive/Desktop/MO TECH/avocado-updated-2020.csv" #change path
 avo = pd.read_csv(path)
 
 app = dash.Dash()
